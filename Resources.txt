@@ -1,0 +1,8 @@
+References used to complete Front-End Web Dev Project 2
+
+Javascript & JQuery by Jon Duckett
+Udacity -  JavaScript Basics - https://www.udacity.com/course/viewer#!/c-ud804-nd/l-2689138724/e-2922048554/m-2863048589
+Udacity - Intro to JQuery - https://www.udacity.com/course/viewer#!/c-ud245-nd/l-3314378535/m-3316638683
+
+Online sources used to complete Front-End Web Dev Project 2
+Piazza Discussion Board
