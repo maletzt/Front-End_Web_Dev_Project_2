@@ -217,6 +217,13 @@ projects.display();
 
 $("#mapDiv").append(googleMap);
 
+$(document).click(function(loc) {
+	var x=loc.pageX;
+	var y=loc.pageY;
+
+	logClicks(x,y);
+});
+
 $("#mapDiv").append(internationalizeButton);
 
 function inName(name){
