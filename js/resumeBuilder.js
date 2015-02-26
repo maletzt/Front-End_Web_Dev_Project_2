@@ -95,9 +95,8 @@ var education = {
 	"dates": 2015,
 	"url": "https://www.udacity.com/course/ud804"
   }
-  ]
-};
-function displayEducation(){
+  ],
+display: function(){
 	for (var edu in education.schools){
 		$("#education").append(HTMLschoolStart);
 		var formattedName = HTMLschoolName.replace("%data%", education.schools[edu].name).replace("#", education.schools[edu].url);
@@ -124,7 +123,8 @@ function displayEducation(){
 		$(".education-entry:last").append(formattedOnlineUrl);
 	}
 }
-displayEducation();
+};
+education.display();
 
 var work = {
 	"jobs": [
